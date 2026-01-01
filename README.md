@@ -89,7 +89,6 @@ hospital-operations-efficiency-analysis/
 │
 ├── 01_patient_stays_cleaning.ipynb
 ├── 02_hospital_admissions_cleaning.ipynb
-├── hospital_operations_analysis.sql
 ├── problem_statement.txt
 ├── README.md
 └── LICENSE
