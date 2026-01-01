@@ -98,3 +98,49 @@ Since GitHub cannot display `.pbix` files:
 ---
 
 ## 6️⃣ Project Folder Structure
+```
+hospital-operations-efficiency-analysis/
+│
+├── raw_data/ # Original hospital datasets
+├── cleaned_data/ # Cleaned and processed datasets
+├── reports/ # Power BI dashboard (PDF)
+├── sql/ # SQL analysis queries
+│
+├── 01_patient_stays_cleaning.ipynb
+├── 02_hospital_admissions_cleaning.ipynb
+├── hospital_operations_analysis.sql
+├── problem_statement.txt
+├── README.md
+└── LICENSE
+``
+---
+
+## 7️⃣ Tools and Technologies Used
+- Python (Pandas, NumPy) – Data cleaning and preprocessing
+- SQL – Data analysis and querying
+- Power BI – Data visualization and dashboard creation
+- Jupyter Notebook – Exploratory data analysis
+- Git & GitHub – Version control and project hosting
+
+---
+
+## 8️⃣ Key Outcomes
+- Identified patterns in patient admissions
+- Analyzed hospital stay durations
+- Highlighted potential operational bottlenecks
+- Created a visual dashboard for decision-making
+
+---
+
+## 9️⃣ How to Run This Project
+1. Clone the repository
+2. Open Jupyter Notebooks to view data cleaning steps
+3. Review SQL queries in the `sql/` folder
+4. View the Power BI dashboard PDF in the `reports/` folder
+
+---
+
+## 🔟 Conclusion
+This project demonstrates how data analytics can be applied in healthcare to improve hospital efficiency, reduce bottlenecks, and support better operational decisions using Python, SQL, and Power BI.
+
+---
