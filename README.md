@@ -22,27 +22,13 @@ How efficiently is a hospital utilizing its resources, and where are operational
 ---
 
 ## 4️⃣ Dataset Overview
+
 This project uses **two hospital datasets**:
 
-1. **`hospital_admissions.csv`** – Contains patient admission details, including:
-   - Name
-   - Age
-   - Gender
-   - Blood Type
-   - Medical Condition
-   - Admission date
-   - Doctor
-   - Hospital
-   - Discharge date,  and many more 
-
-2. **`patient_stays.csv`** – Contains patient hospital stay details, including:
-   - Patient ID
-   - Name
-   - Age
-   - Arrival Date
-   - Departure Date
-   - Service
-   - Satisfaction
+| Dataset | Key Columns / Information |
+|---------|--------------------------|
+| **hospital_admissions.csv** | Name, Age, Gender, Blood Type, Medical Condition, Admission Date, Doctor, Hospital, Discharge Date, and other relevant admission details |
+| **patient_stays.csv** | Patient ID, Name, Age, Arrival Date, Departure Date, Service, Satisfaction, and other stay-related details |
 
 **Folder Structure for Datasets:**
 - Raw datasets: `raw_data/`  
@@ -104,11 +90,10 @@ hospital-operations-efficiency-analysis/
 ├── cleaned_data/ # Cleaned datasets
 ├── reports/ # Power BI dashboard PDF
 ├── assets/ # Screenshots of dashboards
-├── sql/ # SQL queries
+├── sql/ # SQL queries (hospital_operations_analysis.sql)
 │
 ├── 01_patient_stays_cleaning.ipynb
 ├── 02_hospital_admissions_cleaning.ipynb
-├── hospital_operations_analysis.sql
 ├── problem_statement.txt
 ├── README.md
 └── LICENSE
