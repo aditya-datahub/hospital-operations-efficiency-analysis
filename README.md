@@ -22,14 +22,33 @@ How efficiently is a hospital utilizing its resources, and where are operational
 ---
 
 ## 4️⃣ Dataset Overview
-Datasets contain:
-- Patient admission details  
-- Length of hospital stay  
-- Operational and administrative information  
+This project uses **two hospital datasets**:
 
-Data types:
-- **Raw data:** Original, unprocessed data with inconsistencies  
-- **Cleaned data:** Processed data ready for analysis  
+1. **`hospital_admissions.csv`** – Contains patient admission details, including:
+   - Name
+   - Age
+   - Gender
+   - Blood Type
+   - Medical Condition
+   - Admission date
+   - Doctor
+   - Hospital
+   - Discharge date,  and many more 
+
+2. **`patient_stays.csv`** – Contains patient hospital stay details, including:
+   - Patient ID
+   - Name
+   - Age
+   - Arrival Date
+   - Departure Date
+   - Service
+   - Satisfaction
+
+**Folder Structure for Datasets:**
+- Raw datasets: `raw_data/`  
+- Cleaned datasets: `cleaned_data/`  
+
+These datasets are used together to analyze hospital operations, patient stay patterns, and identify operational bottlenecks.
 
 ---
 
@@ -81,7 +100,7 @@ Data types:
 ```
 hospital-operations-efficiency-analysis/
 │
-├── raw_data/ # Original hospital datasets
+├── raw_data/ # Original hospital datasets (hospital_admissions.csv, patient_stays.csv)
 ├── cleaned_data/ # Cleaned datasets
 ├── reports/ # Power BI dashboard PDF
 ├── assets/ # Screenshots of dashboards
@@ -89,10 +108,12 @@ hospital-operations-efficiency-analysis/
 │
 ├── 01_patient_stays_cleaning.ipynb
 ├── 02_hospital_admissions_cleaning.ipynb
+├── hospital_operations_analysis.sql
 ├── problem_statement.txt
 ├── README.md
 └── LICENSE
 ```
+
 ---
 
 ## 7️⃣ Tools & Technologies
@@ -122,3 +143,5 @@ hospital-operations-efficiency-analysis/
 
 ## 🔟 Conclusion
 This project demonstrates how data analytics can improve hospital operations, reduce bottlenecks, and support informed decision-making using Python, SQL, and Power BI.
+
+---
